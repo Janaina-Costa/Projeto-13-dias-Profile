@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Dancing+Script&family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    margin-top: 10px;
+}
+.header{
+   display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-image: linear-gradient(rgb(231, 62, 147), rgb(252, 239, 245)100%);
+    box-shadow: 0 0 12px gray;
+    
+    
+}
+#changeTheme{
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    border-style: inset ;
+    margin-top: 8px;
+    margin-right: 8px;
+
+}
+#changeTheme:hover{
+    background-color: rgb(238, 38, 178);
+    transition: 2s;
+}
+h1{
+    margin-left: 500px;
+    padding: 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+   
+}
+
+.image{
+    border-bottom-left-radius: 20px;
+    border-style: outset;
+    border-color: white;
+    box-shadow: 0 0 12px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    
+}
+
+.perfil{
+
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 30px;
+    margin-left: 80px;
+    align-items: center;
+    font-size: 26px;
+}
+
+#nextbtn{
+    align-items: flex-start;
+}
+.quotes{
+    margin-top: 50px;
+    flex-direction: column;
+    font-family: 'Arvo', serif;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+   
+}
+ .quote{
+    font-style: italic;
+ }
+ .autor{
+     margin-top: 15px;
+ }
+
+ footer{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 350px;
+     text-align: center;
+     background-image: linear-gradient(rgb(231, 62, 147), rgb(252, 239, 245)100%);
+     padding: 16px;
+     font-weight: 600;
+     min-height: 60px;
+ }
+
+ 
